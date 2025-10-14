@@ -64,11 +64,8 @@ message("FIRE_BEHAVIOR .... ${FIRE_BEHAVIOR}")
 ###############################################################################
 set(32BIT           OFF CACHE BOOL "Enable 32BIT (single precision arithmetic in dycore and fast physics)")
 set(CCPP_32BIT      OFF CACHE BOOL "Enable CCPP_32BIT (single precision arithmetic in slow physics)")
-<<<<<<< HEAD
 set(SAMFDEEP_32BIT  OFF CACHE BOOL "Enable SAMFDEEP_32Bit (single precision arithmetic in SAMF deep convection)")
-=======
 set(RRTMGP_32BIT    OFF CACHE BOOL "Enable 32BIT (single precision arithmetic in rte-rrtmgp radiation)")
->>>>>>> upstream/develop
 set(AVX2            ON  CACHE BOOL "Enable AVX2 instruction set")
 set(AVX             OFF CACHE BOOL "Enable AVX-I instruction set")
 set(SIMDMULTIARCH   OFF CACHE BOOL "Enable multi-target SIMD instruction sets")
@@ -123,11 +120,8 @@ endif()
 message("")
 message("32BIT ............ ${32BIT}")
 message("CCPP_32BIT ....... ${CCPP_32BIT}")
-<<<<<<< HEAD
 message("SAMFDEEP_32BIT ... ${SAMFDEEP_32BIT}")
-=======
 message("RRTMGP_32BIT ..... ${RRTMGP_32BIT}")
->>>>>>> upstream/develop
 message("AVX2 ............. ${AVX2}")
 message("SIMDMULTIARCH .... ${SIMDMULTIARCH}")
 message("DEBUG ............ ${DEBUG}")
