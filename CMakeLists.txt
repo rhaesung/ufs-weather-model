@@ -66,6 +66,7 @@ set(32BIT           OFF CACHE BOOL "Enable 32BIT (single precision arithmetic in
 set(CCPP_32BIT      OFF CACHE BOOL "Enable CCPP_32BIT (single precision arithmetic in slow physics)")
 set(SAMFDEEP_32BIT  OFF CACHE BOOL "Enable SAMFDEEP_32Bit (single precision arithmetic in SAMF deep convection)")
 set(RRTMGP_32BIT    OFF CACHE BOOL "Enable 32BIT (single precision arithmetic in rte-rrtmgp radiation)")
+set(FASTER          ON  CACHE BOOL "Enable faster optimization compiler flags")
 set(AVX2            ON  CACHE BOOL "Enable AVX2 instruction set")
 set(AVX             OFF CACHE BOOL "Enable AVX-I instruction set")
 set(SIMDMULTIARCH   OFF CACHE BOOL "Enable multi-target SIMD instruction sets")
